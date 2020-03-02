@@ -7,3 +7,4 @@ loop do
     puts "Wingardium Leviosa"
     break
   end
+end
