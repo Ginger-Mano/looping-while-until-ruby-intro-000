@@ -1,8 +1,9 @@
 def using_while
   levitation_force = 6
 
-  until levitation_force == 10
-    puts "Wingardium Leviosa"
+  loop do
     levitation_force += 1
-  end  #your code here
+    if levitation_force <= 10
+      break
+  end
 end
